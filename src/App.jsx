@@ -36,7 +36,7 @@ function App() {
   const selectedIndex = years.indexOf(selectedYear);
 
   return (
-    <main className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
+    <main className="min-h-screen h-dvh bg-gray-100 flex flex-col items-center justify-center p-8">
       <button
         onClick={() => setIsRadiusEnabled(!isRadiusEnabled)}
         className="mb-12 px-4 py-2 bg-white shadow-sm border border-gray-200 hover:bg-gray-50 transition-colors rounded-lg cursor-pointer"
